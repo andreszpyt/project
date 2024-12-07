@@ -6,6 +6,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <style>
+        :root {
+            --color-blue: #A2C8E6;
+            --color-yellow: #FDE8B4;
+            --color-red: #F4A6A6;
+            --color-green: #B4E6B4;
+        }
+    </style>
 </head>
 <body class="font-roboto bg-gray-50">
     <header class="bg-white shadow-md">
@@ -30,11 +38,11 @@
         <section id="sobre" class="relative bg-gray-100">
             <div class="container mx-auto flex flex-col md:flex-row items-center py-16 px-6">
                 <div class="md:w-1/2 mb-8 md:mb-0">
-                    <div class="bg-white inline-block px-4 py-2 rounded-full mb-4 shadow">
+                    <div class="bg-white inline-block px-4 py-2 rounded-full mb-4 shadow" style="background-color: var(--color-yellow);">
                         <span class="text-red-500 font-bold">EAMTOUP</span>
                     </div>
                     <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4 text-gray-800">Empoderando crianças autistas, um sorriso de cada vez.</h1>
-                    <div class="h-1 w-16 bg-gray-300 mb-4"></div>
+                    <div class="h-1 w-16 mb-4" style="background-color: var(--color-blue);"></div>
                 </div>
                 <div class="md:w-1/2">
                     <img alt="Criança com o rosto pintado em padrões coloridos" class="w-full rounded-lg shadow-lg" src="https://storage.googleapis.com/a1aa/image/bNJDzSg3ZaoeAS1p5D1Ty31WEeAbbprP6yo0cJh8Oqxt7V4TA.jpg"/>
@@ -45,10 +53,10 @@
             <div class="container mx-auto text-center">
                 <h2 class="text-3xl font-bold text-gray-800 mb-8">Nossa História</h2>
                 <div class="relative">
-                    <div class="border-l-2 border-gray-300 absolute h-full left-1/2 transform -translate-x-1/2"></div>
+                    <div class="border-l-2 absolute h-full left-1/2 transform -translate-x-1/2" style="border-color: var(--color-green);"></div>
                     <div class="space-y-8">
                         <div class="flex flex-col md:flex-row items-center">
-                            <div class="md:w-1/2 md:pr-8">
+                            <div class="md:w-1/2 md:pr-8 mb-8 md:mb-0">
                                 <h3 class="text-xl font-bold text-gray-800 mb-2">Fundação</h3>
                                 <p class="text-gray-700">Nossa ONG foi fundada em 2000 com o objetivo de ajudar crianças autistas a se desenvolverem e serem felizes.</p>
                             </div>
@@ -57,7 +65,7 @@
                             </div>
                         </div>
                         <div class="flex flex-col md:flex-row items-center">
-                            <div class="md:w-1/2 md:pr-8">
+                            <div class="md:w-1/2 md:pr-8 mb-8 md:mb-0">
                                 <h3 class="text-xl font-bold text-gray-800 mb-2">Primeiros Projetos</h3>
                                 <p class="text-gray-700">Iniciamos nossos primeiros projetos em 2005, focando em atividades educativas e recreativas para as crianças.</p>
                             </div>
@@ -66,7 +74,7 @@
                             </div>
                         </div>
                         <div class="flex flex-col md:flex-row items-center">
-                            <div class="md:w-1/2 md:pr-8">
+                            <div class="md:w-1/2 md:pr-8 mb-8 md:mb-0">
                                 <h3 class="text-xl font-bold text-gray-800 mb-2">Crescimento</h3>
                                 <p class="text-gray-700">Ao longo dos anos, nossa ONG cresceu e hoje atendemos mais de 500 crianças em diversas regiões.</p>
                             </div>
